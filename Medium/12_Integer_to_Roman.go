@@ -1,17 +1,21 @@
-// Seven different symbols represent Roman numerals with the different values.
+/*
+https://leetcode.com/problems/integer-to-roman/
 
-// Input: num = 3749
-// Output: "MMMDCCXLIX"
+Seven different symbols represent Roman numerals with the different values.
 
-//I = 1
-//V = 5
-//X = 10
-//L = 50
-//C = 100
-//D = 500
-//M = 1000
+Input: num = 3749
+Output: "MMMDCCXLIX"
 
-package main
+I = 1
+V = 5
+X = 10
+L = 50
+C = 100
+D = 500
+M = 1000
+*/
+
+package Medium
 
 func intToRoman(num int) string {
 	num1 := []string{"", "M", "MM", "MMM", "MMMM", "MMMMM"}
